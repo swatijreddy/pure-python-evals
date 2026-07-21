@@ -17,11 +17,8 @@ It  tests LLM output/categorization against accuracy, consistency, and model-bas
 - Code-based grading — "is the predicted label even a valid category, checked with plain Python logic?"
 - Model-based grading — "asks Claude to review a classification for reasonableness (Mode B grading)"
 
-## 🖼️ Workflow Screenshot
 
-![workflow_screenshot.png](workflow_screenshot.png)
-
-### 🔄 Workflow
+## 🔄 Workflow
 
 1. `classify_email.py` sends one email's text to Claude and returns a predicted label
 2. `run_eval.py` runs each test email through the classifier and checks it four ways:
@@ -30,6 +27,10 @@ It  tests LLM output/categorization against accuracy, consistency, and model-bas
    - Code-based grading — is the predicted label one of the 6 valid categories (checked with plain Python, no API call)?
    - Model-based grading — Claude reviews its own classification for reasonableness (only on failures)
 3. Results print to the terminal and export to `eval_results.json` and `consistency_results.json`
+
+## 🖼️ Workflow Screenshot
+
+![workflow_screenshot.svg](workflow_screenshot.svg)
 
 ## 📁 Project Structure
 
@@ -41,7 +42,7 @@ It  tests LLM output/categorization against accuracy, consistency, and model-bas
 ├── run_eval.py
 ├── eval_results.json
 ├── consistency_results.json
-├── workflow_screenshot.png
+├── workflow_screenshot.svg
 ├── .env
 ├── README.md
 └── requirements.txt
@@ -50,7 +51,7 @@ It  tests LLM output/categorization against accuracy, consistency, and model-bas
 
 ## 🛠️ Tech stack
 - Python
-- Anthropic Claude API(via the `anthropic` Python SDK))
+- Anthropic Claude API(via the `anthropic` Python SDK)
 - python-dotenv
 
 
@@ -87,6 +88,7 @@ Latency:0.54 seconds
 Latency:0.69 seconds
 [PASS] expected: Shipping & Orders  got: Shipping & Orders
 Accuracy: 90.0%
+
 ```
 
 ## 👩‍💻 Author
