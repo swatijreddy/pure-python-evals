@@ -1,0 +1,72 @@
+[
+  {
+    "email": "Your electricity bill of $120 is due on July 15th",
+    "expected": "Bills & Utilities",
+    "predicted": "Bills & Utilities",
+    "status": "PASS",
+    "verdict": null
+  },
+  {
+    "email": "We found 3 new QA Engineer jobs matching your profile",
+    "expected": "Job Alerts",
+    "predicted": "Job Alerts",
+    "status": "PASS",
+    "verdict": null
+  },
+  {
+    "email": "Your Amazon order has been shipped. Tracking: 123456",
+    "expected": "Shipping & Orders",
+    "predicted": "Shipping & Orders",
+    "status": "PASS",
+    "verdict": null
+  },
+  {
+    "email": "Congratulations! You have completed Python for Beginners",
+    "expected": "Learning & Courses",
+    "predicted": "Learning & Courses",
+    "status": "PASS",
+    "verdict": null
+  },
+  {
+    "email": "URGENT: Your account will be suspended in 24 hours",
+    "expected": "High Priority",
+    "predicted": "High Priority",
+    "status": "PASS",
+    "verdict": null
+  },
+  {
+    "email": "Exciting deals this weekend \u2014 50% off everything",
+    "expected": "Alerts & Newsletters",
+    "predicted": "Alerts & Newsletters",
+    "status": "PASS",
+    "verdict": null
+  },
+  {
+    "email": "Your interview with Google is confirmed for Monday 10am",
+    "expected": "High Priority",
+    "predicted": "Job Alerts",
+    "status": "FAIL",
+    "verdict": "Valid"
+  },
+  {
+    "email": "Your water bill payment was received successfully",
+    "expected": "Bills & Utilities",
+    "predicted": "Bills & Utilities",
+    "status": "PASS",
+    "verdict": null
+  },
+  {
+    "email": "New course available: Introduction to Machine Learning",
+    "expected": "Learning & Courses",
+    "predicted": "Learning & Courses",
+    "status": "PASS",
+    "verdict": null
+  },
+  {
+    "email": "Your package from Nike has been delivered",
+    "expected": "Shipping & Orders",
+    "predicted": "Shipping & Orders",
+    "status": "PASS",
+    "verdict": null
+  }
+]
