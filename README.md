@@ -18,6 +18,11 @@ It  tests LLM output/categorization against accuracy, consistency, and model-bas
 - Model-based grading — "asks Claude to review a classification for reasonableness (Mode B grading)"
 
 
+## 🖼️ Workflow Screenshot
+
+![workflow_screenshot.svg](workflow_screenshot.svg)
+
+
 ## 🔄 Workflow
 
 1. `classify_email.py` sends one email's text to Claude and returns a predicted label
@@ -28,9 +33,6 @@ It  tests LLM output/categorization against accuracy, consistency, and model-bas
    - Model-based grading — Claude reviews its own classification for reasonableness (only on failures)
 3. Results print to the terminal and export to `eval_results.json` and `consistency_results.json`
 
-## 🖼️ Workflow Screenshot
-
-![workflow_screenshot.svg](workflow_screenshot.svg)
 
 ## 📁 Project Structure
 
